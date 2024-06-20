@@ -8,7 +8,6 @@ body {
     align-items: center;
     margin: 0;
     font-family: "Inter", sans-serif;
-
 }
 
 .mainbox {
@@ -16,16 +15,18 @@ body {
     display: flex;
     width: 450px;
     flex-direction: column;
-    /* justify-content: space-between; */
     align-items: center;
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-family: "Inter", sans-serif;
+    padding: 20px;
+    text-align: center;
 }
 
 p {
     text-align: center;
-    width: 350px;
+    width: 100%;
+    font-size: 14px;
 }
 
 .plan-card {
@@ -35,11 +36,9 @@ p {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
-    /* width: 200px; */
-    justify-content: center;
-}
-
-.plan-details {
+    width: 80%;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
 .icon {
@@ -50,8 +49,8 @@ p {
 
 .plan-type {
     font-weight: bold;
-    /* margin: 0; */
     color: #1c1c1c;
+    margin: 0;
 }
 
 .plan-price {
@@ -63,6 +62,7 @@ p {
     color: #4a4aed;
     text-decoration: none;
     font-weight: bold;
+    margin-left: auto;
 }
 
 .change-link:hover {
@@ -73,14 +73,18 @@ p {
     height: auto;
     border: none;
     border-radius: 5px;
-    cursor: default;
+    cursor: pointer;
     transition: background-color 0.3s, transform 0.1s;
+    margin-top: 50px;
+    padding: 10px 20px;
+    width: 89%;
 }
 
 .btn-primary {
     background-color: blue;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .btn-primary:hover {
@@ -88,7 +92,6 @@ p {
 }
 
 .btn-primary:active {
-    background-color: none;
     transform: translateY(2px);
 }
 
@@ -104,6 +107,5 @@ p {
 }
 
 .btn-secondary:active {
-    background-color: none;
     transform: translateY(2px);
 }
